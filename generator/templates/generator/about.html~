@@ -1,0 +1,18 @@
+<html>
+		<head>
+				<title>About</title>
+		</head>
+		<center>
+				<h3>This website is for generating random user passwords with user's specification and is developed in Django.</h3>
+				<br>
+				<h6>
+						This website is developed by E. Tisbew.
+				</h6>
+				<a href={% url 'home' %}> Back </a>
+		</center>
+</html>
+
+
+
+
+

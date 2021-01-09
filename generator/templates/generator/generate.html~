@@ -1,0 +1,18 @@
+<html>
+		<head>
+				<title>Generator</title>
+		</head>
+		<center>
+				<h2>The generated password is:</h2>
+				<h1>
+				{{key}}
+				</h1>
+				<a href={% url 'home' %}>Back</a> | 
+				<a href={% url 'about' %}>About</a>
+		</center>
+</html>
+
+
+
+
+
